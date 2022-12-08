@@ -5,7 +5,7 @@ on:
       titleText:
         description: "Which text should it say?"
         required: true
-        default: "Welcome to Remotion"
+        default: ${{ inputs.title }}
       titleColor:
         description: "Which color should it be in?"
         required: true

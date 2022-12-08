@@ -5,7 +5,7 @@ on:
       titleText:
         description: "Which text should it say?"
         required: true
-        default: ${{ inputs.title }}
+        default: "test"
       titleColor:
         description: "Which color should it be in?"
         required: true
